@@ -1,0 +1,60 @@
+🧪 Wine Quality Classifier using Neural Networks (Keras, Python)
+Overview:
+Developed a binary classification model to distinguish between red and white wines using physicochemical properties. Leveraged machine learning techniques, data visualization, and neural networks to build an end-to-end predictive system based on the UCI Wine Quality Dataset.
+
+Key Contributions:
+
+Data Acquisition & Cleaning:
+
+Imported red and white wine datasets from UCI Machine Learning Repository.
+
+Merged and labeled data for binary classification (is_red = 1 for red, 0 for white).
+
+Handled missing values and ensured clean, structured input for model training.
+
+Exploratory Data Analysis (EDA):
+
+Visualized alcohol content distribution across wine types to highlight key feature differences.
+
+Used matplotlib for insightful histogram plots aiding in feature understanding.
+
+Feature Engineering & Preprocessing:
+
+Normalized input features using StandardScaler for improved model convergence.
+
+Split data into training and test sets (67%/33%) using train_test_split.
+
+Model Building (Keras + TensorFlow backend):
+
+Designed a feedforward neural network:
+
+Input layer matching feature dimensions
+
+Two hidden layers with ReLU activation
+
+Sigmoid output layer for binary classification
+
+Compiled using adam optimizer and binary_crossentropy loss for accurate binary predictions.
+
+Training & Evaluation:
+
+Trained the model over 5 epochs with a small batch size to encourage smoother convergence.
+
+Achieved high accuracy on both training and unseen test data.
+
+Made predictions and interpreted results with a user-friendly printout of wine type.
+
+Tools & Libraries:
+
+Python, Pandas, NumPy, Matplotlib
+
+Scikit-learn (for preprocessing and train/test split)
+
+Keras (with TensorFlow backend) for deep learning
+
+Outcome:
+
+Successfully built and evaluated a neural network capable of classifying wine type with high accuracy based on physicochemical features alone.
+
+Demonstrated strong understanding of the machine learning workflow from data collection to model deployment.
+
